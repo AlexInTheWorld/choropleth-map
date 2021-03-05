@@ -1,6 +1,6 @@
 # Choropleth map
 
-A choropleth map example made wit d3 technology for FCC course "Data visualization".
+A choropleth map example made witH d3 technology for FCC course "Data visualization".
 ___
 ***USER STORIES***
 
