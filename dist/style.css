@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&family=Dosis&family=Viga&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    min-width: 1000px;
+}
+
+#title {
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+}
+
+#description {
+    font-family: 'Cuprum', sans-serif;
+}
+
+#preloader {
+    margin-top: 30px;
+}
+
+.tooltip {
+    position: absolute;
+    padding: 10px;
+    font-size: 12px;
+    font-family: 'Viga', sans-serif;
+    background: #aebdd4;
+    border: 1px solid blue;
+    border-radius: 5px;
+    pointer-events: none;
+    width: auto;
+}
+
+.county:hover {
+    stroke: red;
+}
+
+#source {
+    align-self: flex-start;
+    font-family: 'Viga', sans-serif;
+    font-size: 14px;
+}
